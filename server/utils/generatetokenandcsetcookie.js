@@ -6,9 +6,9 @@ const gentokenandsetcookie=async (userid,res) => {
      )      
      res.cookie('token',token,{
         maxAge:24*60*60*1000,
-        httpOnly:false,
+        httpOnly:true,
         sameSite: 'lax',
-        secure: false,  
+        secure: true,  
     })
 }
 export default gentokenandsetcookie
