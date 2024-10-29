@@ -138,7 +138,7 @@ const addemoji=(emoji)=>{
                             <div className="w-9 h-9 rounded-full flex items-center justify-center mr-2">
                               <img src={ChatWith?.profilepic} alt={ChatWith?.userName} className="w-8 h-8 rounded-full" />
                             </div>
-                            <div className="flex max-w-96 bg-white rounded-lg p-3 gap-3">
+                            <div className="flex max-w-96 bg-slate-200 rounded-lg p-3 gap-3">
                               <p className="text-gray-700">{msg.message}</p>
                             </div>
                           </div>

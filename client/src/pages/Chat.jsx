@@ -7,7 +7,7 @@ import SocketContextProvider from '../context/SocketContextProvider'
 import NotificationContextProvider from '../context/notificationContext'
 import ChatContextProvider from '../context/ChatContext'
 import { ChatContext } from '../context/ChatContext'
-
+import snow from '../assets/snowbg.jpg'
 
 const Chat = () => {
 const [start, setstart] = useState(true)
@@ -32,7 +32,7 @@ setupdate(value)
     <SocketContextProvider>
      
       <NotificationContextProvider>
-    <div className='overflow-auto  h-screen bg-[url("snowbg.jpg")] bg-no-repeat bg-cover ' >
+    <div className={`overflow-auto  h-screen bg-[url(${snow})] bg-no-repeat bg-cover` } >
 
     
     {loading?<span className="loading loading-dots loading-lg"></span> :<>
