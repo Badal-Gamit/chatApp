@@ -146,7 +146,7 @@ const addemoji=(emoji)=>{
                       </div>
                     ))
                   ) : (
-                    <div className='text-5xl text-slate-300 text-center'>
+                    <div className='text-5xl text-slate-700 text-center'>
                       Start a conversation with {ChatWith?.userName} ✋
                     </div>
                   )}
@@ -179,8 +179,8 @@ const addemoji=(emoji)=>{
           </div>
         ) : (
           <div className='flex justify-center items-center w-full h-screen flex-col gap-5 backdrop-blur-lg opacity-85'>
-            <div className='text-slate-100 text-5xl font-bold'>Welcome {user.userName} 🤓</div>
-            <div className='text-slate-100 text-5xl font-bold'>Select a chat to start a conversation 📞</div>
+            <div className='text-slate-700  text-5xl font-bold'>Welcome {user.userName} 🤓</div>
+            <div className='text-slate-700  text-5xl font-bold'>Select a chat to start a conversation 📞</div>
           </div>
         )}
    
