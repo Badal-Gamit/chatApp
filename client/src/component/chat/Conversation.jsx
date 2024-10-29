@@ -164,10 +164,10 @@ const addemoji=(emoji)=>{
                     placeholder="Type a message..."
                     value={message || ''}
                     onChange={({ target }) => setMessage(target.value)}
-                    className="w-full p-2 rounded-md border text-slate-100 bg-transparent border-gray-400 focus:outline-none focus:border-blue-500"
+                    className="w-full p-2 rounded-md border text-black bg-transparent border-gray-400 focus:outline-none focus:border-blue-500"
                    onClick={()=>{if (showpicker) setshowpicker(false)} }
                  />
-                  <div  className='absolute right-24 cursor-pointer' onClick={()=>setshowpicker(!showpicker)}  > <MdEmojiEmotions  size={22}  color='green' />   </div>
+                  <div  className='absolute right-24 cursor-pointer' onClick={()=>setshowpicker(!showpicker)}  > <MdEmojiEmotions  size={22}  />   </div>
                   
                   <button className="bg-indigo-500 text-white px-4 py-2 rounded-md ml-2">
                     {loading ? <span className="loading loading-spinner loading-sm"></span> : <span>Send</span>}

@@ -32,7 +32,7 @@ setupdate(value)
     <SocketContextProvider>
      
       <NotificationContextProvider>
-    <div className={`overflow-auto  h-screen bg-[url(${snow})] bg-no-repeat bg-cover` } >
+    <div className={`overflow-auto  h-screen bg-gradient-to-r from-blue-100 via-transparent to-blue-200 bg-no-repeat bg-cover` } >
 
     
     {loading?<span className="loading loading-dots loading-lg"></span> :<>
