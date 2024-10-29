@@ -6,7 +6,7 @@ export const useGetmessage = () => {
     const  fetchMessages=async (id) => {
         try {
             setchatloading(true)
-             const response=await fetch(`http://localhost:5000/api/message/get-message/${id}`,{
+             const response=await fetch(`https://chatapp-muzz.onrender.com/api/message/get-message/${id}`,{
                 method:"get",
                 credentials:"include"
               })

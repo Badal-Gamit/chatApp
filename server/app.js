@@ -14,7 +14,7 @@ dbconnection();
 const port =process.env.PORT || 5000
   
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://chatapp-xyz.onrender.com",
     credentials:true
 })) 
 app.use(express.json());

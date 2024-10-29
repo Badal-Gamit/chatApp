@@ -9,7 +9,7 @@ export const useSendmessage = () => {
        
         
         setloading(true)
-       const response  =await fetch(`http://localhost:5000/api/message/send-message/${id}`,{
+       const response  =await fetch(`https://chatapp-muzz.onrender.com/api/message/send-message/${id}`,{
             method:"post",
             credentials:"include",
            body:JSON.stringify({message}),

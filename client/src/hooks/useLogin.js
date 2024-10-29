@@ -14,7 +14,7 @@ const useLogin = () => {
         setLoading(true);
         try {
            
-          const response= await  fetch('http://localhost:5000/api/auth/login',{
+          const response= await  fetch('https://chatapp-muzz.onrender.com/api/auth/login',{
                 headers: {
                     "Content-Type": "application/json",
                   },

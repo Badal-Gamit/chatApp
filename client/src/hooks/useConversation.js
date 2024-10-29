@@ -11,7 +11,7 @@ const useConversation = () => {
  const fetchuser=async () => {
     try {    
         setloading(true)
-        const response=await  fetch('http://localhost:5000/api/user',{
+        const response=await  fetch('https://chatapp-muzz.onrender.com/api/user',{
             credentials:"include"
         })
        const result=await response.json()

@@ -16,7 +16,7 @@ useEffect(() => {
 }, [])
 useEffect(() => {
   if (loginuser) {
-     const socket=io('http://localhost:5000',{
+     const socket=io('https://chatapp-muzz.onrender.com',{
       query:{id:loginuser._id}
      })
      setSocket(socket)

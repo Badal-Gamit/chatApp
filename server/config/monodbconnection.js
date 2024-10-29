@@ -6,7 +6,7 @@ const  dbconnection=async()=>{
         console.log('connection to db sucess');
         
    } catch (error) {
-       console.log('failed connection db ',error.messagge);
+       console.log('failed connection db ',error);
    }
 
 }
